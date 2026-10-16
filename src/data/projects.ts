@@ -24,7 +24,7 @@ export const projects: Project[] = [
     name: 'Lab Hub',
     subdomain: 'artificialsi.tech',
     stack: ['Next.js', 'TypeScript', 'Tailwind', 'Vercel'],
-    status: 'building',
+    status: 'live',
     repoUrl: repo('lab-hub'),
     summary: 'This homepage. It lists every practice project and links to its subdomain.',
   },
