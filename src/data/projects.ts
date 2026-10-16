@@ -16,7 +16,8 @@ export interface Project {
 
 // TODO: replace with your real GitHub username.
 const GITHUB_USER = 'rajaganaa';
-const repo = (name: string) => `https://github.com/rajaganaa/ai_full_stack_development.git`;
+const repo = (name: string) => `https://github.com/${GITHUB_USER}/${name}`;
+
 
 export const projects: Project[] = [
   {
